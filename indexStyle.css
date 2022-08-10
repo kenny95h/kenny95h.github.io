@@ -92,9 +92,6 @@ Navigation Bar
     background: #343a40;
   }
   
-  .btn-xl {
-    padding: 1.25rem 2.5rem;
-  }
 
   /*
 Background
@@ -224,3 +221,39 @@ Socials
   .social-list li{
     list-style: none;
   }
+
+  /*
+About
+*/
+#skillsbars {
+    width: 30%;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.bar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+  }
+.csharp {
+    width: 90%; background-color: #04AA6D;
+}
+.sql {
+    width: 80%; background-color: #2196F3;
+}
+.jv {
+    width: 70%; background-color: #f44336;
+}
+.html {
+    width: 60%; background-color: #808080;
+}
+
+.skill-title{
+    font-size: 1.2rem;
+}
