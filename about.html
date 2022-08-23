@@ -4,16 +4,17 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>My Profile</title>
+    <title>My Profile - About Me</title>
     <meta name="author" content="K. Harvey" />
     <meta name="description" content="A profile page" />
     <link href="indexStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="script.js"></script>
 </head>
 
-<body id="page-top">
+<body class="aboutbg" id="page-top">
     <div id="bg" class="bg">
         <!-- Navigation-->
         <a id="menu-toggle" class="menu-toggle rounded"><img class="menu" src="Images/lines.png"></a>
@@ -22,37 +23,190 @@
                 <li class="sidebar-brand">Menu</li>
                 <li id="home" class="sidebar-nav-item"><a href="index.html">Home</a></li>
                 <li id="about" class="sidebar-nav-item"><a href="about.html">About Me</a></li>
-                <li id="portfolio" class="sidebar-nav-item"><a href="portfolio.html">Portfolio</a></li>
+                <li id="portfolio" class="sidebar-nav-item"><a href="portfolio.html">Projects</a></li>
                 <li id="contact" class="sidebar-nav-item"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="center-content">
-            <header class="titles text-center">
-                <h1 class="mb-1">About Me</h1>
-            </header>
-            <div id="skillsbars">
-                <h4>My Skills</h4>
-                <p class="skill-title">C#</p>
-                <div class="bar rounded">
-                    <div class="skills csharp rounded">90%</div>
+        <header class="titles text-center">
+            <h1 class="w3-padding-16">About Me</h1>
+        </header>
+            <!-- <div class="wrapall">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img class="me" src="Images/profilepic.jpeg" alt="Image of Kenny Harvey"
+                             />
+                    </div>
+                    <div id="aboutme" class="col-sm-9" >
+                        <h4>Summary</h4>
+                        <p>Kenny has gained experience as a manager within telecommunications while continuing to focus
+                            on building a career in the technology sector by completing a degree in computing. He has
+                            chosen C# SDET due to his experience with programming languages and problem-solving and
+                            wants to develop industry experience to kickstart a career in software engineering. Kenny
+                            enjoys spending his spare time developing new skills, including teaching himself to play
+                            guitar, refining his landscape photography and photo-editing skills, playing squash, and
+                            focusing on health and fitness. Kenny is excited about the opportunity to work with a client
+                            and collaborate with a team to develop, test, and fix software while building his career as
+                            a C# SDET.</p>
+                    </div>
                 </div>
+                <div class="row">
+                    <div id="skills" class="col-sm-3">
+                        <div id="skillsbars">
+                            <h4>My Skills</h4>
+                            <p class="skill-title">C#</p>
+                            <div class="bar rounded">
+                                <div class="skills csharp rounded">90%</div>
+                            </div>
 
-                <p class="skill-title">SQL</p>
-                <div class="bar rounded">
-                    <div class="skills sql rounded">80%</div>
-                </div>
+                            <p class="skill-title">SQL</p>
+                            <div class="bar rounded">
+                                <div class="skills sql rounded">80%</div>
+                            </div>
 
-                <p class="skill-title">Java</p>
-                <div class="bar rounded">
-                    <div class="skills jv rounded">70%</div>
-                </div>
+                            <p class="skill-title">Java</p>
+                            <div class="bar rounded">
+                                <div class="skills jv rounded">70%</div>
+                            </div>
 
-                <p class="skill-title">HTML</p>
-                <div class="bar rounded">
-                    <div class="skills html rounded">60%</div>
+                            <p class="skill-title">HTML</p>
+                            <div class="bar rounded">
+                                <div class="skills html rounded">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="workex" class="col-sm-5">
+                        <h4>Work Experience</h4>
+                        <h5>Sparta Global</h5>
+                        <h6>Junior C# SDET</h6>
+                        <p>Completed 8 weeks of intensive industry standard training to develop skills as a C# SDET.</p>
+                        <h5>Vodafone</h5>
+                        <h6>Assistant Store Manager</h6>
+                        <p>Woriking alongside the Store Manager to ensure the store is constantly achieving sales targets and providing great service.</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <div id="certs" class="col-sm-12">
+                                <h4>Certifications</h4>
+                                <h5>ISTQB</h5>
+                                <p>Certified Tester - Foundation level credential</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="educ" class="col-sm-12">
+                                <h4>Education</h4>
+                                <h5>Open University</h5>
+                                <h6>BSc Computing & IT</h6>
+                                <p>TBC</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div> -->
+
+            <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="Images/sm-profilepic.jpeg" style="width:100%" alt="Image of Kenny Harvey">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Kenny Harvey</h2>
+          </div>
         </div>
+        <div class="w3-container">
+        <p></p>
+          <p><b>Software Development Engineer in Test</b></p>
+          <p><b>Newcastle, UK</b></p>
+          <hr>
+
+          <h4>Skills</h4>
+          <p>C#</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Java</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>SQL</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>HTML</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+          <p>CSS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+          <br>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-16"><i class="w3-margin-right w3-text-teal"></i>Summary</h2>
+            <div class="w3-container">
+              <p>Kenny has gained experience as a manager within telecommunications while continuing to focus
+                on building a career in the technology sector by completing a degree in computing. He has
+                chosen C# SDET due to his experience with programming languages and problem-solving and
+                wants to develop industry experience to kickstart a career in software engineering. Kenny
+                enjoys spending his spare time developing new skills, including teaching himself to play
+                guitar, refining his landscape photography and photo-editing skills, playing squash, and
+                focusing on health and fitness. Kenny is excited about the opportunity to work with a client
+                and collaborate with a team to develop, test, and fix software while building his career as
+                a C# SDET.</p>
+              <hr>
+            </div>
+          </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="w3-margin-right w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Sparta Global - Junior C# SDET</b></h5>
+          <h6 class="w3-text-teal">Jun 2022 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Vodafone - Assistant Store Manager</b></h5>
+          <h6 class="w3-text-teal">Apr 2020 - Jun 2022</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="w3-margin-right w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>The Open University</b></h5>
+          <h6 class="w3-text-teal">Sept' 2020 - Sept' 2023</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
 
         <footer class="footer text-center">
             <p class="text-muted small">Copyright &copy; Kenny Harvey Profile 2022</p>
